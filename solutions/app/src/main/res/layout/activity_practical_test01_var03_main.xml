@@ -14,6 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/first_number"
+        android:inputType="number"
+        android:saveEnabled="false"
         />
 
     <LinearLayout
@@ -22,14 +24,14 @@
         android:layout_gravity="center"
         >
         <Button
-            android:id="@+id/btnSave"
+            android:id="@+id/btnPlus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/plus"
             android:gravity="center"
             android:layout_margin="5dp"/>
         <Button
-            android:id="@+id/btnCancel"
+            android:id="@+id/btnMinus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/minus"
@@ -43,13 +45,20 @@
         android:id="@+id/ed_snd_line"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/second_number"/>
+        android:hint="@string/second_number"
+        android:inputType="number"
+        android:saveEnabled="false"/>
 
     <TextView
+        android:id="@+id/result_field"
+        android:hint="@string/result"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:saveEnabled="false"
+        />
 
     <Button
+        android:id="@+id/navigate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/navigate_to_second_activity"

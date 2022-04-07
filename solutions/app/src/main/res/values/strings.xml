@@ -5,4 +5,7 @@
     <string name="minus">-</string>
     <string name="second_number">Second number</string>
     <string name="navigate_to_second_activity">NAVIGATE TO SECOND ACTIVITY</string>
+    <string name="result">Result:</string>
+    <string name="corect">Corect</string>
+    <string name="incorrect">Incorrect</string>
 </resources>
